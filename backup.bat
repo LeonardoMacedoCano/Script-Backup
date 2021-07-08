@@ -19,3 +19,5 @@ echo # - - - - - - - - - - - - - - - - - - - - - - - - - #
 echo #                 BACKUP FINALIZADO                 #
 echo # - - - - - - - - - - - - - - - - - - - - - - - - - #
 echo.
+
+pause
