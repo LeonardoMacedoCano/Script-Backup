@@ -13,3 +13,9 @@ echo.
 
 xcopy %ORIGEM% %DESTINO% /E /Y /C /H
 dir /s %DESTINO% > %LOG%\Log.txt
+
+echo.
+echo # - - - - - - - - - - - - - - - - - - - - - - - - - #
+echo #                 BACKUP FINALIZADO                 #
+echo # - - - - - - - - - - - - - - - - - - - - - - - - - #
+echo.
