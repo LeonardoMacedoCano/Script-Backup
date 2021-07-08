@@ -7,8 +7,9 @@ set DESTINO=""
 set LOG=""
 
 echo # - - - - - - - - - - - - - - - - - - - - - - - - - #
-echo #       COPIANDO DE ARQUIVOS E/OU DIRETORIOS        #
+echo #                  INICIANDO BACKUP                 #
 echo # - - - - - - - - - - - - - - - - - - - - - - - - - #
+echo.
 
 xcopy %ORIGEM% %DESTINO% /E /Y /C /H
 dir /s %DESTINO% > %LOG%\Log.txt
